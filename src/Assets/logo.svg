@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#2EB2D3"/>
+
+  <!-- T Letter -->
+  <text x="50%" y="40%" font-family="Arial, sans-serif" font-size="80" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">
+    T
+  </text>
+
+  <!-- H Letter -->
+  <text x="50%" y="70%" font-family="Arial, sans-serif" font-size="80" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">
+    H
+  </text>
+</svg>
