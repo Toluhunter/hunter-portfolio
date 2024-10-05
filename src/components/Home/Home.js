@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 // import homeLogo from "../../Assets/home-main.webp";
 // import Particle from "../Particle";
 import Slider from "../slider"
+import Connect from "./connect";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -21,12 +22,12 @@ function Home() {
                 <strong className="main-name"> Tolulope   Fakoya</strong>
               </h1><br />
 
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <span style={{ fontSize: 40 }}>
-                  toluhunter<span className="callout-text">$</span>: ./whatido<br /><br />
+              <h1 className="heading-name">
+                <span>
+                  toluhunter<span className="callout-text">$</span>: ./whatido<br />
                 </span>
                 <Type />
-              </div>
+              </h1><br />
             </Col>
 
             {/* <Col md={5} style={{ paddingBottom: 20 }}>
@@ -39,11 +40,12 @@ function Home() {
             </Col> */}
           </Row>
           <Row>
-                        <Button className="home-button" size="lg" variant="light">Light</Button>{' '}
+            <Button href="#about" className="home-button" size="lg" variant="light">Learn More</Button>{' '}
           </Row>
         </Container>
       </Container>
       <Home2 />
+      <Connect />
     </section>
   );
 }
