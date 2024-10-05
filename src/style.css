@@ -309,6 +309,10 @@ button:focus {
   padding-right: 0px !important;
 }
 
+.home-button {
+  width: 20% !important
+}
+
 .home-content {
   padding: 9rem 0 2rem !important;
   margin: 0;

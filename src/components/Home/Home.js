@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Button from 'react-bootstrap/Button';
 // import homeLogo from "../../Assets/home-main.webp";
 // import Particle from "../Particle";
 import Slider from "../slider"
@@ -36,6 +37,9 @@ function Home() {
                 style={{ maxHeight: "450px", borderRadius: "1000px" }}
               />
             </Col> */}
+          </Row>
+          <Row>
+                        <Button className="home-button" size="lg" variant="light">Light</Button>{' '}
           </Row>
         </Container>
       </Container>
