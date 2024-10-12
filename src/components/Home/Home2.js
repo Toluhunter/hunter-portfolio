@@ -10,41 +10,21 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="callout-text"> INTRODUCE </span> MYSELF
+              ABOUT ME
             </h1>
             <p className="home-about-body">
-              Unlocking the code with a dash of daring! Tolulope Fakoya:
-              where DevOps meets adventure and cybersecurity is a thrilling challenge. Step into the unknown realms of tech with me!
-              <br />
-              <br />I'm experienced in
-              <i>
-                <b className="callout-text"> Python, Javascript and Bash. </b>
-              </i>
+              I’m Tolulope Fakoya, a passionate DevOps engineer with a deep passion for both cybersecurity who thrives on turning challenges into victories and automating success at every opportunity.
+              I’ve slashed deployment times with efficient CI/CD pipelines, optimized cloud costs, and leveraged tools like Terraform, Jenkins,
+              and AWS to build infrastructure that fuels growth.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="callout-text">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="callout-text">
-                  Blockchain.
-                </b>
-              </i>
+              My adaptability shines through in everything I do from implementing serverless architectures to leading incident responses that keep downtime to a minimum. With a strong focus on cybersecurity,
+              I combine my DevOps expertise with a keen eye for security, ensuring that the systems I build are not only efficient but also secure.
+              Certified in both DevOps and cybersecurity, I’m dedicated to delivering high-quality, secure solutions that drive growth and innovation.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="callout-text">Node.js</b> and
-              <i>
-                <b className="callout-text">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="callout-text"> React.js and Next.js</b>
-              </i>
             </p>
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

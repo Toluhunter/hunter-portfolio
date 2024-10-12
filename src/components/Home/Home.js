@@ -7,6 +7,10 @@ import Slider from "../slider"
 import Connect from "./connect";
 import Home2 from "./Home2";
 import Type from "./Type";
+import CardGrid from "./Projects";
+import Certificates from "./Certificates";
+
+const deviceType = typeof window.orientation !== "undefined" ? "mobile" : "desktop";
 
 function Home() {
   return (
@@ -14,7 +18,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Slider />
         <Container className="home-content">
-          <Row>
+          <Row className="home-hero">
             <Col md={7} className="home-header">
 
               <h1 className="heading-name">
@@ -39,12 +43,14 @@ function Home() {
               />
             </Col> */}
           </Row>
-          <Row>
+          <div className="home-button-container">
             <Button href="#about" className="home-button" size="lg" variant="light">Learn More</Button>{' '}
-          </Row>
+          </div>
         </Container>
       </Container>
       <Home2 />
+      <CardGrid />
+      <Certificates deviceType={deviceType} />
       <Connect />
     </section>
   );

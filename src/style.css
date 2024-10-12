@@ -300,22 +300,30 @@ button:focus {
 
 .home-section {
   position: relative;
-  /* z-index: 1; */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 10px !important;
   padding-top: 30px !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  /* height: 100vh; */
+}
+
+.home-hero {
+  margin-bottom: 20%;
 }
 
 .home-button {
   margin-bottom: 0% !important;
   width: 20% !important;
-  margin-left: 41% !important;
-  margin-top: 20vh !important;
+  /* margin-left: 41% !important; */
 }
 
+.home-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
 
 
 .home-content {
@@ -332,7 +340,7 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 1.8em !important;
   padding-left: 45px !important;
 }
 
@@ -386,6 +394,27 @@ button:focus {
   padding-bottom: 20px !important;
   text-align: center;
 }
+
+.home-project-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 70px !important;
+  color: white !important;
+}
+
+.home-certificates-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 70px !important;
+  color: white !important;
+}
+
+/* .home-about-description {
+  color: white !important;
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+} */
 
 .home-about-body {
   padding-top: 50px;
