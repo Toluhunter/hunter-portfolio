@@ -318,6 +318,13 @@ button:focus {
   width: 20% !important;
   /* margin-left: 41% !important; */
 }
+@media (max-width: 767px) {
+  .home-button {
+    width: 30% !important;
+    /* margin-left: 41% !important; */
+  }
+}
+
 
 .home-button-container {
   display: flex;
@@ -340,8 +347,15 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 1.8em !important;
+  /*font-size: 1.8em !important;*/
   padding-left: 45px !important;
+}
+
+@media (max-width: 767px) {
+  .heading-name {
+    font-size: 1.8em !important;
+    padding-left: 45px !important;
+  }
 }
 
 .main-name {
