@@ -10,7 +10,7 @@ function Type() {
           "Freelancer",
           "Bug Bounty Hunter",
           "DevOps Engineer",
-          "AI/ML Ethnusianst",
+          "AI/ML Engineer",
         ],
         autoStart: true,
         loop: true,

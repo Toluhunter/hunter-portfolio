@@ -164,8 +164,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3em !important;
+  width: 3em !important;
 }
 
 .navbar-nav .nav-link {
@@ -636,15 +636,15 @@ button:focus {
 }
 
 .btn-primary {
-  color: #fff !important;
-  background-color: #2EB2D3 !important;
-  border-color: #2EB2D3 !important;
+  color: black !important;
+  background-color: white !important;
+  border-color: #ffffff !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: var(--callout-color) !important;
+  border-color: var(--callout-color) !important;
 }
 
 .btn:focus {
@@ -676,12 +676,11 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(7, 255, 20, 0.637) !important;
+  border: 1.7px solid rgba(255, 255, 255, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(7, 255, 20, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -695,6 +694,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
+  box-shadow: 4px 5px 4px 3px rgba(7, 255, 20, 0.137) !important;
   border: 2.2px solid rgba(7, 255, 20, 0.883) !important;
 }
 

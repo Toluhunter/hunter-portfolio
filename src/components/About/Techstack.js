@@ -9,47 +9,40 @@ import {
   DiGit,
 } from "react-icons/di";
 
-import {
-  FaAws,
-  FaDocker,
-} from "react-icons/fa";
-
-import {
-  SiRedis,
-  SiPostgresql,
-} from "react-icons/si";
+import { FaAws, FaDocker } from "react-icons/fa";
+import { SiRedis, SiPostgresql } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="JavaScript">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Node.js">
         <DiNodejs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="React">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="MongoDB">
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Git">
         <DiGit />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Redis">
         <SiRedis />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="PostgreSQL">
         <SiPostgresql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Python">
         <DiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="AWS">
         <FaAws />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" title="Docker">
         <FaDocker />
       </Col>
     </Row>
