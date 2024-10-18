@@ -7,7 +7,7 @@ import Slider from "../slider"
 import Connect from "./connect";
 import Home2 from "./Home2";
 import Type from "./Type";
-import CardGrid from "./Projects";
+import Projects from "./Projects";
 import Certificates from "./Certificates";
 
 const deviceType = typeof window.orientation !== "undefined" ? "mobile" : "desktop";
@@ -49,7 +49,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
-      <CardGrid />
+      <Projects />
       <Certificates deviceType={deviceType} />
       <Connect />
     </section>

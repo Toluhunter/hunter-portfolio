@@ -1,7 +1,8 @@
 import Carousel from "react-multi-carousel";
 import { Container } from "react-bootstrap";
 import Cards from "./Cards";
-import aws_solutions_certificate from "../../../src/Assets/Certificates/aws-solution-architect.webp";
+import security_plus from "../../../src/Assets/Certificates/comptia-security-ce-certification.webp";
+import isc2_cc from "../../../src/Assets/Certificates/certified-in-cybersecurity-cc.webp";
 import "react-multi-carousel/lib/styles.css";
 
 function Certificates(props) {
@@ -9,12 +10,12 @@ function Certificates(props) {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
             items: 3,
-            slidesToSlide: 3 // optional, default to 1.
+            slidesToSlide: 1 // optional, default to 1.
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
             items: 2,
-            slidesToSlide: 2 // optional, default to 1.
+            slidesToSlide: 1 // optional, default to 1.
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
@@ -25,8 +26,11 @@ function Certificates(props) {
     return (
         <Container fluid className="home-certificates-section" id="certificates">
             <Container >
+                <h1 style={{ fontSize: "2.6em" }}>
+                    CERTIFICATES
+                </h1>
                 <Carousel
-                    swipeable={false}
+                    swipeable={true}
                     draggable={false}
                     showDots={true}
                     responsive={responsive}
@@ -41,10 +45,11 @@ function Certificates(props) {
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                     deviceType={props.deviceType}
                     dotListClass="custom-dot-list-style"
-                    itemClass="carousel-item-padding-40-px"
+                    centerMode={true}
+                    itemClass="carosel-slider"
                 >
-                    <Cards title="AWS Solution Architect Associate" description="" imgPath={aws_solutions_certificate} />
-                    <div>Item 4</div>
+                    <Cards title="CompTIA Security+ ce Certification" description="" imgPath={security_plus} />
+                    <Cards title="Certified in Cybersecurity (CC)" description="" imgPath={isc2_cc} />
                 </Carousel>
             </Container >
         </Container>

@@ -4,7 +4,7 @@ import Cards from './Cards'
 import portfolio_pic from '../../../src/Assets/Projects/portfolio.png'
 
 
-const CardGrid = () => {
+const Projects = () => {
     const cardsData = [
         {
             title: 'Portfolio Website',
@@ -31,4 +31,4 @@ const CardGrid = () => {
     );
 };
 
-export default CardGrid;
+export default Projects;

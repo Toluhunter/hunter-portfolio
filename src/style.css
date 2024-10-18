@@ -318,6 +318,7 @@ button:focus {
   width: 20% !important;
   /* margin-left: 41% !important; */
 }
+
 @media (max-width: 767px) {
   .home-button {
     width: 30% !important;
@@ -488,6 +489,18 @@ button:focus {
   text-shadow: 0 0 2px var(--callout-color);
 }
 
+.carosel-slider {
+  margin: 0 20px;
+  /* overflow: "hidden"; */
+  padding: 2rem 0;
+}
+
+@media (max-width: 767px) {
+  .carosel-slider {
+    margin: 0 0px;
+  }
+}
+
 .social-icons {
   display: inline-block !important;
   padding-right: 15px;
@@ -563,8 +576,10 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(57, 255, 20, 0.459) !important;
+  /* box-shadow: 0 4px 5px 3px rgba(57, 255, 20, 0.459) !important; */
   color: white !important;
+  border: 1px solid white !important;
+  /* Add this line */
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
