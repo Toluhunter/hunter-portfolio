@@ -1,14 +1,20 @@
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <!-- Background Circle -->
-  <circle cx="100" cy="100" r="100" fill="#2EB2D3"/>
-
-  <!-- T Letter -->
-  <text x="50%" y="40%" font-family="Arial, sans-serif" font-size="80" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">
-    T
-  </text>
-
-  <!-- H Letter -->
-  <text x="50%" y="70%" font-family="Arial, sans-serif" font-size="80" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">
-    H
-  </text>
+<svg width="650" height="410" viewBox="0 0 650 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="330" y="396" width="376" height="40" rx="10" transform="rotate(-90 330 396)" fill="white"/>
+<rect x="650" y="23" width="387" height="39" rx="10" transform="rotate(90 650 23)" fill="white"/>
+<rect x="550" y="224" width="166" height="41" rx="10" transform="rotate(90 550 224)" fill="white"/>
+<rect x="479" width="150" height="40" rx="10" transform="rotate(90 479 0)" fill="white"/>
+<rect x="202" y="80" width="250" height="40" rx="10" transform="rotate(90 202 80)" fill="white"/>
+<rect x="120" y="160" width="241" height="40" rx="10" transform="rotate(90 120 160)" fill="white"/>
+<rect x="280" y="410" width="200" height="40" rx="10" transform="rotate(180 280 410)" fill="white"/>
+<rect x="240" y="410" width="216" height="41" rx="10" transform="rotate(-90 240 410)" fill="white"/>
+<path d="M0 10C0 4.47715 4.47715 0 10 0H270C275.523 0 280 4.47715 280 10V30C280 35.5228 275.523 40 270 40H10C4.47715 40 0 35.5228 0 30V10Z" fill="white"/>
+<path d="M0 90C0 84.4772 4.47715 80 10 80H175C180.523 80 185 84.4772 185 90V109C185 114.523 180.523 119 175 119H10C4.47716 119 0 114.523 0 109V90Z" fill="white"/>
+<path d="M31 20C36.5228 20 41 24.4772 41 30L41 103C41 108.523 36.5228 113 31 113H10C4.47715 113 0 108.523 0 103L0 30C0 24.4772 4.47715 20 10 20L31 20Z" fill="white"/>
+<path d="M103 193C103 198.523 98.5228 203 93 203H10C4.47715 203 5.96046e-07 198.523 5.96046e-07 193V170C5.96046e-07 164.477 4.47715 160 10 160H51.5H93C98.5228 160 103 164.477 103 170V193Z" fill="white"/>
+<path d="M456 30C456 35.5228 451.523 40 446 40H340C334.477 40 330 35.5228 330 30V10C330 4.47715 334.477 1.36941e-06 340 1.36941e-06H393H446C451.523 1.36941e-06 456 4.47715 456 10V30Z" fill="white"/>
+<path d="M440 400C440 405.523 435.523 410 430 410H340C334.477 410 330 405.523 330 400V380C330 374.477 334.477 370 340 370H385H430C435.523 370 440 374.477 440 380V400Z" fill="white"/>
+<path d="M636 400C636 405.523 631.523 410 626 410H519C513.477 410 509 405.523 509 400V363C509 357.477 513.477 353 519 353H572.5H626C631.523 353 636 357.477 636 363V400Z" fill="white"/>
+<path d="M541 140C541 145.523 536.523 150 531 150H454C448.477 150 444 145.523 444 140V120C444 114.477 448.477 110 454 110H492.5H531C536.523 110 541 114.477 541 120V140Z" fill="white"/>
+<path d="M650 30C650 35.5228 645.523 40 640 40H560C554.477 40 550 35.5228 550 30V10C550 4.47715 554.477 0 560 0H600H640C645.523 0 650 4.47715 650 10V30Z" fill="white"/>
+<path d="M550 265C550 270.523 545.523 275 540 275H451C445.477 275 441 270.523 441 265V228C441 222.477 445.477 218 451 218H495.5H540C545.523 218 550 222.477 550 228V265Z" fill="white"/>
 </svg>

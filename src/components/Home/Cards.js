@@ -33,6 +33,18 @@ function Cards(props) {
             {"Demo"}
           </Button>
         )}
+        {props.certlink && (
+          <Button
+            variant="primary"
+            href={props.certlink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {"Verify"}
+          </Button>
+        )}
+
       </Card.Body>
     </Card>
   );

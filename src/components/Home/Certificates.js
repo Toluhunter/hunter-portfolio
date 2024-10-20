@@ -3,6 +3,8 @@ import { Container } from "react-bootstrap";
 import Cards from "./Cards";
 import security_plus from "../../../src/Assets/Certificates/comptia-security-ce-certification.webp";
 import isc2_cc from "../../../src/Assets/Certificates/certified-in-cybersecurity-cc.webp";
+import aws_solution_architect from "../../../src/Assets/Certificates/aws-certified-solutions-architect-associate.webp";
+import aws_devops from "../../../src/Assets/Certificates/aws-certified-devops-engineer-professional.webp";
 import "react-multi-carousel/lib/styles.css";
 
 function Certificates(props) {
@@ -37,7 +39,7 @@ function Certificates(props) {
                     ssr={true} // means to render carousel on server-side.
                     infinite={true}
                     autoPlay={props.deviceType !== "mobile" ? true : false}
-                    autoPlaySpeed={1000}
+                    autoPlaySpeed={5000}
                     keyBoardControl={true}
                     customTransition="all .5"
                     transitionDuration={500}
@@ -48,8 +50,10 @@ function Certificates(props) {
                     centerMode={true}
                     itemClass="carosel-slider"
                 >
-                    <Cards title="CompTIA Security+ ce Certification" description="" imgPath={security_plus} />
-                    <Cards title="Certified in Cybersecurity (CC)" description="" imgPath={isc2_cc} />
+                    <Cards title="CompTIA Security+ ce Certification" description="" imgPath={security_plus} certlink="https://www.credly.com/badges/b41ec3b7-e89b-425a-9a27-1acab75c06f5" />
+                    <Cards title="Certified in Cybersecurity (CC)" description="" imgPath={isc2_cc} certlink="https://www.credly.com/badges/89c54739-c2c5-4fc0-8bcc-832192d9191d/public_url" />
+                    <Cards title="AWS Certified Solutions Architect – Associate" description="" imgPath={aws_solution_architect} certlink="https://cp.certmetrics.com/amazon/en/public/verify/credential/8728cd26a469431b8f5051502cb29467" />
+                    <Cards title="AWS Certified DevOps Engineer – Professional" description="" imgPath={aws_devops} certlink="https://cp.certmetrics.com/amazon/en/public/verify/credential/0d03a4d28396432abf563484b551a8af" />
                 </Carousel>
             </Container >
         </Container>
