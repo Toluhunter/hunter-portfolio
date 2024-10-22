@@ -13,7 +13,7 @@ function Home2() {
               ABOUT ME
             </h1>
             <p className="home-about-body">
-              I’m Tolulope Fakoya, a passionate DevOps engineer with a deep passion for both cybersecurity who thrives on turning challenges into victories and automating success at every opportunity.
+              I’m Tolulope Fakoya, a passionate DevOps engineer with a deep passion for cybersecurity who thrives on turning challenges into victories and automating success at every opportunity.
               I’ve slashed deployment times with efficient CI/CD pipelines, optimized cloud costs, and leveraged tools like Terraform, Jenkins,
               and AWS to build infrastructure that fuels growth.
               <br />
