@@ -12,7 +12,7 @@ function AboutCard() {
             <br />
             <br />
             Welcome to the realm of technology and adventure! <br />
-            I'm a DevOps Engineer, Bug Bounty Hunter and an AI/ML Ethnusianst driven by innovation and a thirst for exploration.
+            I'm a DevOps Engineer, Bug Bounty Hunter and an AI/ML Engineer driven by innovation and a thirst for exploration.
             Join me as we dive into the thrilling world where code meets creativity, and hacking is an art form. Let's push boundaries and embark on an unforgettable journey together.
             <br />
             <br />
