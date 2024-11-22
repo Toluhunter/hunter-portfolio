@@ -13,6 +13,14 @@ function Cards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        {props.role && (
+          <Card.Title>My Role</Card.Title>
+        )}
+        {props.role && (
+          <Card.Text style={{ textAlign: "justify" }}>
+            {props.role}
+          </Card.Text>
+        )}
         {/* <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}

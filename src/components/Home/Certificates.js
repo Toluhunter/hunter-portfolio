@@ -1,6 +1,6 @@
 import Carousel from "react-multi-carousel";
 import { Container } from "react-bootstrap";
-import Cards from "./Cards";
+import Cards from "../Cards";
 import security_plus from "../../../src/Assets/Certificates/comptia-security-ce-certification.webp";
 import isc2_cc from "../../../src/Assets/Certificates/certified-in-cybersecurity-cc.webp";
 import aws_solution_architect from "../../../src/Assets/Certificates/aws-certified-solutions-architect-associate.webp";

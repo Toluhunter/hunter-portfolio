@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import ComingSoon from "./components/ComingSoon/ComingSoon";
+import Projects from "./components/Projects/Projects";
 import {
   BrowserRouter as Router,
   Route,
