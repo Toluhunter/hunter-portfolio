@@ -5,6 +5,7 @@ import security_plus from "../../../src/Assets/Certificates/comptia-security-ce-
 import isc2_cc from "../../../src/Assets/Certificates/certified-in-cybersecurity-cc.webp";
 import aws_solution_architect from "../../../src/Assets/Certificates/aws-certified-solutions-architect-associate.webp";
 import aws_devops from "../../../src/Assets/Certificates/aws-certified-devops-engineer-professional.webp";
+import aws_ml from "../../../src/Assets/Certificates/aws-certified-machine-learning-specialty.webp";
 import "react-multi-carousel/lib/styles.css";
 
 function Certificates(props) {
@@ -50,10 +51,11 @@ function Certificates(props) {
                     centerMode={true}
                     itemClass="carosel-slider"
                 >
+                    <Cards title="AWS Certified DevOps Engineer – Professional" description="" imgPath={aws_devops} certlink="https://cp.certmetrics.com/amazon/en/public/verify/credential/0d03a4d28396432abf563484b551a8af" />
                     <Cards title="CompTIA Security+ ce Certification" description="" imgPath={security_plus} certlink="https://www.credly.com/badges/b41ec3b7-e89b-425a-9a27-1acab75c06f5" />
+                    <Cards title="AWS Certified Machine Learning - Specialty" description="" imgPath={aws_ml} certlink="https://cp.certmetrics.com/amazon/en/public/verify/credential/949700d3d9ee459d84c0dee17d23bf34" />
                     <Cards title="Certified in Cybersecurity (CC)" description="" imgPath={isc2_cc} certlink="https://www.credly.com/badges/89c54739-c2c5-4fc0-8bcc-832192d9191d/public_url" />
                     <Cards title="AWS Certified Solutions Architect – Associate" description="" imgPath={aws_solution_architect} certlink="https://cp.certmetrics.com/amazon/en/public/verify/credential/8728cd26a469431b8f5051502cb29467" />
-                    <Cards title="AWS Certified DevOps Engineer – Professional" description="" imgPath={aws_devops} certlink="https://cp.certmetrics.com/amazon/en/public/verify/credential/0d03a4d28396432abf563484b551a8af" />
                 </Carousel>
             </Container >
         </Container>
